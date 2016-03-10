@@ -1,3 +1,7 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 #logo {
   height: 100px;
   width: 300px;
@@ -50,13 +54,13 @@ div form {
   margin-right: 20px;
   margin-top: 10px;
 }
-a:link {
+#Navbar a:link{
   text-decoration: none;
 }
-a:hover {
+#Navbar a:hover {
   text-decoration: underline;
 }
-ul {
+#Navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -66,6 +70,62 @@ ul {
   margin-top: 10px;
   margin-right: 10px;
 }
-li {
+#Navbar li {
   display: inline;
-} 
+}
+#Footer {
+  font-family: arial;
+  border-top-style: solid;
+  border-top-color: #e0e0d2;
+  border-top-width: 2px;
+  height: 40px;
+  width: 100%;
+  background-color: #eaeae1;
+  list-style-type: none;
+  bottom: 0;
+  position: absolute;
+}
+#Footer li {
+  display: inline;
+}
+#Business {
+  display: block;
+  font-size: small;
+  float: left;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+#About {
+  display: block;
+  font-size: small;
+  float: left;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+#Privacy {
+  display: block;
+  font-size: small;
+  float: right;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+#Settings {
+  display: block;
+  font-size: small;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+#Advert {
+  display: block;
+  font-size: small;
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+#Footer li a:link {
+  text-decoration: none;
+}
+#Footer li a:hover {
+  text-decoration: underline;
+}
